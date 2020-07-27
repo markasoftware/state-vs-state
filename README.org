@@ -19,14 +19,14 @@ The source code has lots of comments, though they probably aren't helpful.
 
 ** Running
 
-```bash
+#+BEGIN_SRC bash
 npm i
 node index.js
-```
+#+END_SRC
 
 Will print out the top 10 states that like other states the most. At the time of
 writing, though, there's only one state that actually likes another state more
-than itself. The runner ups are still interesting view!
+than itself. The runner ups are still interesting!
 
 You may see some duplicate pairs in the output. This is normal, as described in
 a comment in the source code.
