@@ -1,0 +1,25 @@
+{
+  "name": "google-trends-states",
+  "version": "1.0.0",
+  "description": "Find which states hate themselves",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/markasoftware/google-trends-states.git"
+  },
+  "author": "Mark Polyakov",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/markasoftware/google-trends-states/issues"
+  },
+  "homepage": "https://github.com/markasoftware/google-trends-states#readme",
+  "dependencies": {
+    "array-unsort": "^1.1.5",
+    "google-trends-api": "^4.9.0",
+    "sleep-promise": "^8.0.1",
+    "states-us": "^1.0.0"
+  }
+}

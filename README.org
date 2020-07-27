@@ -1,0 +1,34 @@
+* Which states hate themselves?
+
+/Hint: West Virginia/
+
+Analyze Google Trends data to determine if people in any state prefer other
+states to their own in Google search. Google Trends provides a breakdown of
+search popularity by US state to make this possible.
+
+The main challenge is determining how to test all pairs of states in the fewest
+number of API calls. There are 1,225 pairs of states that need to be tested.
+Google Trends lets you compare up to 5 queries at once. This is a non-trivial
+problem. Three methods are explored in my code, with the best one able to
+perform the feat in about 150 requests. I determined that a lower bound is 130
+requests, so this is pretty good. Surely this is a well-studied problem in
+computer science, but I have no idea what to search for and had fun developing
+these simple algorithms on my own!
+
+The source code has lots of comments, though they probably aren't helpful.
+
+** Running
+
+```bash
+npm i
+node index.js
+```
+
+Will print out the top 10 states that like other states the most. At the time of
+writing, though, there's only one state that actually likes another state more
+than itself. The runner ups are still interesting view!
+
+You may see some duplicate pairs in the output. This is normal, as described in
+a comment in the source code.
+
+
